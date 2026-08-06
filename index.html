@@ -70,9 +70,22 @@
 
   /* HERO */
   .hero{
-    background:var(--ink);color:var(--paper);
-    position:relative;overflow:hidden;
+    position:relative;
+    overflow:hidden;
     padding:88px 0 96px;
+    color:#fff;
+    min-height:700px;
+
+    background-image:
+    linear-gradient(
+        rgba(5,12,18,.78),
+        rgba(5,12,18,.78)
+    ),
+    url("hero-background.png");
+
+    background-size:cover;
+    background-position:center right;
+    background-repeat:no-repeat;
   }
   .hero-inner{
     max-width:1120px;margin:0 auto;padding:0 28px;
