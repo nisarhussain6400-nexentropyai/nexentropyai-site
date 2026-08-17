@@ -1,0 +1,2 @@
+# Block direct web access to stored lead data
+Require all denied
